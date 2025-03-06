@@ -1,0 +1,41 @@
+.cor {
+    background-color: #EC6D1C !important;
+}
+
+.menu-categorias {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.menu-categorias .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-categorias .categorias {
+    display: flex;
+    gap: 20px;
+    /* Espaçamento entre os itens */
+}
+
+.menu-categorias a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.menu-categorias a:hover {
+    color: #EC6D1C;
+    /* Cor laranja das ofertas */
+}
+
+.menu-categorias .ofertas {
+    color: #EC6D1C;
+    font-weight: bold;
+    margin-left: auto;
+}

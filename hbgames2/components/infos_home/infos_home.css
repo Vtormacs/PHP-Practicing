@@ -1,0 +1,64 @@
+/* Container geral */
+.info-box {
+    margin: 5rem 8rem 5rem 8rem;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem; /* Espaço entre os itens */
+    flex-wrap: nowrap; /* Evita quebra para a próxima linha */
+}
+
+.info-box h4 {
+    color: #000000;
+    font-weight: 400;
+}
+
+.info-box p {
+    color: rgb(112, 112, 112);
+}
+
+.single-info {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Faz os itens ocuparem o mesmo espaço */
+    min-width: 200px; /* Define um tamanho mínimo para evitar que fiquem muito pequenos */
+}
+
+.single-info img {
+    width: 48px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+
+.single-info h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.single-info p {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 992px) {
+    .info-box {
+        margin: 0 2rem 2rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .single-info {
+        width: 100%;
+    }
+
+    .info-box {
+        margin: 0 1rem 2rem 1rem;
+    }
+}

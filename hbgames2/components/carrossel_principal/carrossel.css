@@ -1,0 +1,17 @@
+.slider {
+    width: 80%;
+    /* Ajuste conforme necessário */
+    max-width: 15000px;
+    /* Define um limite máximo */
+    margin: auto;
+    /* Centraliza horizontalmente */
+
+    border-radius: 2rem;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2rem;
+}
